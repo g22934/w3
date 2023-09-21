@@ -16,9 +16,14 @@ myButton.onclick = function() {
 
 // Image switcher code
 
-let myImage = document.querySelector('img');
+const myImage = document.querySelector("img");
 
-myImage.onclick = function() {
-  let mySrc = myImage.getAttribute('src');
-  console.log("画像をクリックしました");
+myImage.onclick = () => {
+  const mySrc = myImage.getAttribute("src");
+  if (mySrc === "images/firefox-icon.png") {
+    myImage.setAttribute("src", "images/tiikawaのコピー.jpeg");
+  } else {
+    myImage.setAttribute("src", "images/tiikawaのコピー.jpeg");
+  }
+};
 }
