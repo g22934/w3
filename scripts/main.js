@@ -26,4 +26,3 @@ myImage.onclick = () => {
     myImage.setAttribute("src", "images/tiikawaのコピー.jpeg");
   }
 };
-}
